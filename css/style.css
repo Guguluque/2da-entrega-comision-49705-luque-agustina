@@ -1,0 +1,390 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+
+
+
+
+/* BODY */
+body {
+  background-color: rgb(1, 1, 29);
+  font-family: "Quicksand", sans-serif;
+}
+
+
+
+
+/* HEADER */
+.header {
+  background-color: rgb(1, 1, 29);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 85px;
+  padding: 5px 10%;
+  border-bottom: 1px solid rgba(211, 189, 158, 0.644);
+}
+.logo {
+  cursor: pointer;
+}
+.logo img {
+  height: 70px;
+  width: auto;
+  transition: all 0.3s;
+}
+.logo img:hover {
+  transform: scale(1.2);
+}
+.header .nav-links {
+  list-style: none;
+}
+.header .nav-links li {
+  display: inline-block;
+  padding: 0 20px;
+}
+.header .nav-links li:hover {
+  transform: scale(1.1);
+}
+.header .nav-links a {
+  font-size: 700;
+  color: rgba(255, 235, 205, 0.795);
+  text-decoration: none;
+}
+
+.header .nav-links li a:hover {
+  color: rgba(207, 176, 133, 0.76);
+}
+.bag {
+  width: 20px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.btn button {
+  margin-left: auto;
+  font-weight: 700;
+  background-color: rgb(1, 1, 29);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.btn button:hover {
+  transform: scale(1.5, 1.5);
+}
+
+
+
+
+/* FOOTER */
+.footer {
+  color: blanchedalmond;
+  font-weight: lighter;
+  text-align: center;
+  font-size: small;
+  margin-top: 50px;
+  padding: 20px;
+  border-top: 1px solid rgba(148, 132, 110, 0.644);
+}
+
+
+
+
+/* TEXTOS */
+.titulo {
+  font-size: 60px;
+  color: antiquewhite;
+  text-align: center;
+  font-weight: bold;
+  font-family: Helvetica;
+  margin-bottom: 120px;
+  margin-top: 40px;
+}
+.subTitulo {
+  font-size: 20px;
+  color: antiquewhite;
+  text-align: left;
+  font-weight: bold;
+  font-family: Helvetica;
+  margin-bottom: 10px;
+}
+.texto {
+  color: rgba(255, 235, 205, 0.554);
+  margin-bottom: 30px;
+}
+
+
+
+
+/* CARDS */
+.contenedorCards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.cart {
+  width: 20px;
+}
+.tituloCard {
+  font-weight: bold;
+}
+.btnCard {
+  background-color: rgb(1, 1, 29);
+  color: blanchedalmond;
+  font-weight: lighter;
+  border: 1px solid blanchedalmond;
+  border-radius: 30px;
+  margin-top: 20px;
+  padding: 3px 10px;
+  text-align: center;
+}
+.btnCard:hover {
+  background-color: rgb(224, 195, 151);
+  color: rgb(1, 1, 29);
+  font-weight: bold;
+}
+
+.imgMerchyServicio {
+  border-radius: 6px;
+  height: 100%;
+}
+
+
+
+
+/* form */
+.form {
+  margin-top: 60px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+input,
+textarea {
+  background-color: rgb(236, 233, 228);
+  margin-bottom: 15px;
+  border: 0;
+  border-radius: 10px;
+  padding: 5px;
+}
+.btnForm {
+  background-color: burlywood;
+  color: rgb(85, 50, 3);
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.btnForm:hover {
+  background-color: rgb(200, 146, 76);
+}
+
+
+
+
+/* BTN */
+.btn {
+  text-decoration: none;
+  color: blanchedalmond;
+  font-weight: normal;
+}
+.btn:hover {
+  color: rgb(1, 1, 19);
+  font-weight: bold;
+}
+
+.btnHover {
+  background-color: rgb(1, 1, 29);
+  color: bisque;
+  font-weight: lighter;
+  border: 2px solid blanchedalmond;
+  border-radius: 30px;
+  text-align: center;
+  margin: 10px;
+  padding: auto;
+  display: center;
+}
+.btnHover:hover {
+  background-color: rgb(207, 179, 136);
+  color: rgb(1, 1, 29);
+  font-weight: normal;
+}
+
+
+
+
+/* PAGINA HOME */
+.imgHome {
+  height: 500px;
+}
+
+
+
+
+/* PAGINA SERVICIOS */
+.contenedorColumna {
+  columns: 2;
+  margin-bottom: 80px;
+}
+.servicios {
+  margin-top: 80px;
+}
+
+
+
+
+/* PAGINA SAVE THE DATE */
+.middle {
+  text-align: center;
+}
+.subTituloNormal {
+  font-size: 25px;
+  color: blanchedalmond;
+  text-align: center;
+  font-weight: normal;
+  margin-top: 100px;
+  margin-bottom: 10px;
+}
+.Precio{
+  font-size: 60px;
+  color: antiquewhite;
+  text-align: center;
+  font-weight: bold;
+  font-family: Helvetica;
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+.videoConocenos {
+  margin-top: 100px;
+  margin-bottom: 90px;
+}
+.border{
+  margin: 110px;
+  margin-bottom: 30px;
+  padding: auto;
+  border-radius: 24px;
+}
+
+
+/* MERCH */
+.tituloMerch {
+  font-size: 40px;
+  color: antiquewhite;
+  text-align: left;
+  font-family: Helvetica;
+  font-weight: normal;
+  
+}
+.textoMerch {
+  color: rgba(255, 235, 205, 0.554);
+  margin-bottom: 30px;
+}
+.TituloBs{
+  font-size: 20px;
+  color: antiquewhite;
+  text-align: left;
+  font-weight: normal;
+  font-family: Helvetica;
+  margin-bottom: 10px;
+  margin-top: 120px;
+}
+
+
+
+
+/* PAGINA CONOCENOS */
+.textoConocenos {
+  color: rgba(255, 235, 205, 0.554);
+  margin-bottom: 5px;
+}
+.BtnStd{
+  background-color: rgb(1, 1, 29);
+  color: bisque;
+  font-weight: lighter;
+  border: 2px solid blanchedalmond;
+  border-radius: 30px;
+  text-align: center;
+  margin: 5px;
+  padding: auto;
+  display: center;
+}
+.BtnStd:hover {
+  background-color: rgb(207, 179, 136);
+  color: rgb(1, 1, 29);
+  font-weight: normal;
+}
+.VideoConocenos{
+  margin-bottom: 110px;
+}
+
+
+
+/**** RESPONSIVE stuff ******/
+
+.container {
+  width: 100%;
+}
+
+.hero-img {
+  width: 100% !important;
+}
+
+.img-hero2 {
+  width: 100% !important;
+}
+
+.img-hero3 {
+  width: 100% !important;
+}
+
+/* tablet: 768px to 1023 */
+
+@media (min-width: 0px) and (max-width: 576px) {
+  .hero-img {
+    display: none;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .hero-img {
+    display: none;
+  }
+}
+
+@media (min-width: 769px) {
+  .hero-img-mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 1023px) {
+  .header {
+    height: auto;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+.bordex {
+    border: solid 5px red;
+}
+
+.imagen_card{
+    height: 425px;
+    overflow: hidden;
+}
+
+.card_product {
+    margin-bottom: 30px;
+}
